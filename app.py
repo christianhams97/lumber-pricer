@@ -7,7 +7,7 @@ from openai import OpenAI
 
 # --- APP CONFIGURATION ---
 st.set_page_config(page_title="Project Pricer Pro", page_icon="🪚", layout="wide")
-st.write("Impact-Site-Verification: 066f64be-0023-4366-9272-57570f76f543")
+st.markdown('<p>Impact-Site-Verification: 066f64be-0023-4366-9272-57570f76f543</p>', unsafe_allow_html=True)
 
 st.title("🪚 The Project Pricer")
 st.markdown("Upload a Plan. AI finds the **Master List**, compares prices, and estimates tax.")
